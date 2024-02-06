@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+nav{
+    font-size: x-large;
+}
+a{
+    color: maroon;
+    text-decoration: none;
+}
+.heading{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 30px;
+}
+footer{
+    background-color: teal;
+}
+.copyright{
+color: brown;
+text-align: center;
+margin: 10px;
+}

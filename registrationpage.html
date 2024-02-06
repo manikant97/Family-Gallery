@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #7e8d7a;
+        }
+
+        /* Styling for the navigation bar */
+        .navbar {
+            background-color: #115623;
+            color: #850808;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar .icon {
+            margin-right: 5px;
+        }
+
+        /* Styling for the registration form */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+    
+        }
+
+        form {
+            border: 1px solid #4dd265;
+            padding: 20px;
+            border-radius: 5px;
+            
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #25a714;
+            color: #bfcdce;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #489868;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#"><span class="icon">&#9776;</span> Home</a>
+        <a href="#"><span class="icon">&#128100;</span> About</a>
+        <a href="#"><span class="icon">&#9993;</span> Service</a>
+        <a href="#"><span class="icon">&#9993;</span> Contact</a>
+    </div>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
